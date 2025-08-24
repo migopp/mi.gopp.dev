@@ -1,7 +1,5 @@
 # mi.gopp.dev
 
-> 僕の心から❤️
-
 Welcome to my home on the internet.
 
 ## Building
