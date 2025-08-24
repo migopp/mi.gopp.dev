@@ -1,3 +1,5 @@
+set shell := ["bash", "-cu"]
+
 default:
     just --list
 
