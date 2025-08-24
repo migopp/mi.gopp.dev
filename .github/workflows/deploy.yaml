@@ -23,11 +23,14 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
 
-      # Need `just`
-      # Re: https://github.com/marketplace/actions/setup-just
-      - uses: extractions/setup-just@v3
+      # Set up Ruby
+      - name: Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+            ruby-version: '3.4'
 
       # Runs a single command using the runners shell
       - name: Build HTML
         shell: bash
+        uses: extractions/setup-just@v3
         run: just setup-and-build

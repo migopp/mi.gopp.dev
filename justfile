@@ -5,6 +5,7 @@ default:
 
 # Construct the virtual environment for building.
 venv:
+    bundle install
     python3 -m venv venv
     pip install -r requirements.txt
 

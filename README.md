@@ -1,10 +1,10 @@
 # mi.gopp.dev
 
-Welcome to my home on the internet.
+Welcome to my internet dwelling.
 
 ## Building
 
-Prerequisites are `python3`, `just`, and `kramdown`.
+Prerequisites are `python3`, `ruby`, and `just`.
 
 ``` sh
 just setup-and-build
