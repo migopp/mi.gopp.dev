@@ -1,0 +1,16 @@
+:root {
+    --background-color: #242424;
+    --text-color: #E8E8E8;
+    --link-color: #A7C7E7;
+}
+
+body {
+    background: var(--background-color);
+    color: var(--text-color);
+    font-size: 1.1em;
+    max-width: 50rem;
+}
+
+a {
+    color: var(--link-color);
+}

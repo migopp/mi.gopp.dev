@@ -1,10 +1,5 @@
-Michael Goppert
+## Howdy 👋
 
----
+I'm studying Computer Science, Math, and Japanese at [UT Austin](https://www.utexas.edu/), and I'm most interested in systems programming.
 
-Here's some sample text.
-
----
-
-僕の心から❤️
-©2025 Michael Goppert <mi@gopp.dev>
+I currently TA for CS 439H: Honors Operating Systems.
